@@ -1,0 +1,31 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:15207/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "MONGODB_SERVICE_HOST": "localhost",
+        "MONGODB_PASSWORD": "user1#123",
+        "MONGODB_USER": "user1",
+        "MONGODB_DATABASE": "sampledb",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Click2Cloud.Samples.AspNetCore.MvcMongoDb": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
